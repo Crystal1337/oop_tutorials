@@ -36,14 +36,14 @@ class TennisMatch
 
   }
 
-  protected function hasWinner()
+  private function hasWinner()
   {
-
+    //only used in this class
   }
 
   protected function hasAdvantage()
   {
-
+    //used in this class and children of this class
   }
 
   protected function inDeuce()
